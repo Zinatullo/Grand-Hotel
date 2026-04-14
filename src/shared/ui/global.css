@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.hero-bg {
+  background-image: url('https://images.unsplash.com/photo-1634041441461-a1789d008830?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080');
+  background-size: cover;
+  background-position: center;
+}.hero-bg-booking {
+  background-image: url('https://images.unsplash.com/photo-1654086317502-531c0d05919b?...');
+  background-size: cover;
+  background-position: center;
+}.hero-bg-about {
+  background-image: url('https://images.unsplash.com/photo-1654086317502-531c0d05919b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob3RlbCUyMGxvYmJ5JTIwZWxlZ2FudHxlbnwxfHx8fDE3NjA2ODE2MjB8MA&ixlib=rb-4.1.0&q=80&w=1080');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+.my-animate {
+  animation: mounted 1s ease-in-out;
+}
+
+
+@keyframes mounted {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0);
+  }
+}
